@@ -1,7 +1,6 @@
-# Generator-pix
-[![Build Status](https://secure.travis-ci.org/mu574n6/generator-pix.png?branch=master)](https://travis-ci.org/mu574n6/generator-pix)
+# Pix Framework generator
 
-A generator for Yeoman.
+A Yeoman Generator for [Pix Framework](https://github.com/pixnet/pixframework)
 
 ## Getting started
 - Make sure you have [yo](https://github.com/yeoman/yo) installed:
