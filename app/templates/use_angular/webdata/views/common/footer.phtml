@@ -1,0 +1,23 @@
+
+
+    <script src="/static/components/angular/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.0.1/angular-ui-router.min.js"></script>
+
+    <?php if (HelperLib::isTestSite()) { ?>
+
+    <script src="/static/js/app.js"></script>
+    <script src="/static/js/controllers/main.js"></script>
+    <script src="/static/js/controllers/about.js"></script>
+    <script src="/static/js/directives/sampleDirective.js"></script>
+    <script src="/static/js/services/sampleService.js"></script>
+    <script src="/static/js/filters/sampleFilter.js"></script>
+    <script src="http://localhost:1337/livereload.js"></script>
+
+    <?php } else { ?>
+
+    <script src="/static/dest/one.min.js"></script>
+
+    <?php } ?>
+
+</body>
+</html>

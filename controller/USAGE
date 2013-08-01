@@ -1,0 +1,9 @@
+Description:
+    Creates a new Pix Controller
+
+Example:
+    yo pix:controller YourControllerName
+
+    This will create:
+        webdata/controllers/YouControllerNameController.php
+        webdata/views/YourControllerName/index.phtml

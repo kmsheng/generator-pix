@@ -1,0 +1,11 @@
+*.swp
+debug.php
+components/
+.sass-cache/
+*.scssc
+.svn/
+node_modules/
+temp/
+*.min.js
+*.min.css
+fingerprint.txt

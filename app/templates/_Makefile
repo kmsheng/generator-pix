@@ -1,0 +1,6 @@
+PROJECTPATH=<%= domainName %>
+NETGROUP=
+IRCLOG=yes
+USE_RSYNC=yes
+
+.include </net/account/etc/Makefile.inc>

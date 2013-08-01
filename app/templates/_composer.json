@@ -1,0 +1,29 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "pixnet/PixCore",
+                "version": "dev-master",
+                "target-dir": "webdata/libs/PixCore",
+                "source": {
+                    "url": "git@github.com:pixnet/pixframework.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "classmap": ["webdata/libs/"]
+                }
+            }
+        }
+    ],
+    "require": {
+        "pixnet/PixCore": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["webdata/libs/", "webdata/helpers/", "webdata/models/"]
+    },
+    "minimum-stability": "dev"
+}
+
+

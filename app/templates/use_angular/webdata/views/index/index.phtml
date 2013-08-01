@@ -1,0 +1,19 @@
+<?= $this->partial('/common/header.phtml', $this) ?>
+
+<div class="container">
+    <div class="container-narrow">
+        <ul class="nav nav-pills pull-right">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#/about">About</a>
+            </li>
+        </ul>
+        <div ui-view></div>
+    </div>
+</div>
+
+<?= $this->partial('/index/tmpl/main.phtml', $this) ?>
+<?= $this->partial('/index/tmpl/about.phtml', $this) ?>
+<?= $this->partial('/common/footer.phtml', $this) ?>
