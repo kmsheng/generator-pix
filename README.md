@@ -11,7 +11,9 @@ A generator for Yeoman.
 
 ## Demo Movies
 [Demo 1: Scaffold Out A Project](http://youtu.be/0duXfsr6uOc)
+
 [Demo 2: Creating Routes Using Sub-generator](http://youtu.be/jvIOuALlnjM)
+
 [Demo 3: Writing A Generator](http://youtu.be/8ysBiN0Zw-4)
 
 ## License
