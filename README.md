@@ -8,6 +8,9 @@ A Yeoman Generator for [Pix Framework](https://github.com/pixnet/pixframework)
 - Install the generator: `npm install -g generator-pix`
 - Run: `yo pix`
 
+## Slide
+[Slide](http://www.slideshare.net/ssuser6d23c4/an-intro-of-web-scaffolding-tool-using-yeoman-generator)
+
 ## Demo Movies
 [Demo 1: Scaffold Out A Project](http://youtu.be/0duXfsr6uOc)
 
